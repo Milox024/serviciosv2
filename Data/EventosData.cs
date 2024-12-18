@@ -19,7 +19,7 @@ namespace chaknuul_services.Data
         }
         public List<Evento> GetEventos() 
         {
-            using (var context = new ChaknuulDbContext())
+            using (var context = new DbAae570Chaknuul2024Context())
             {
                 return context.Eventos.Where(w => w.Fecha >= DateTime.Now).ToList();
             }
@@ -27,7 +27,7 @@ namespace chaknuul_services.Data
 
         internal Evento GetProximo()
         {
-            using (var context = new ChaknuulDbContext())
+            using (var context = new DbAae570Chaknuul2024Context())
             {
                 Evento eve = context.Eventos.Where(w => w.Fecha >= DateTime.Now && w.Foco.Value == true).FirstOrDefault();
                 if (eve != null) {

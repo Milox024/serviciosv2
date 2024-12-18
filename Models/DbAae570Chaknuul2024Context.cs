@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace chaknuul_services.Models;
 
-public partial class ChaknuulDbContext : DbContext
+public partial class DbAae570Chaknuul2024Context : DbContext
 {
-    public ChaknuulDbContext()
+    public DbAae570Chaknuul2024Context()
     {
     }
 
-    public ChaknuulDbContext(DbContextOptions<ChaknuulDbContext> options)
+    public DbAae570Chaknuul2024Context(DbContextOptions<DbAae570Chaknuul2024Context> options)
         : base(options)
     {
     }
@@ -21,7 +21,11 @@ public partial class ChaknuulDbContext : DbContext
 
     public virtual DbSet<Partner> Partners { get; set; }
 
+    public virtual DbSet<PseudoToken> PseudoTokens { get; set; }
+
     public virtual DbSet<Tipo> Tipos { get; set; }
+
+    public virtual DbSet<UsuariosAdmin> UsuariosAdmins { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -123,6 +127,20 @@ public partial class ChaknuulDbContext : DbContext
                 .IsUnicode(false);
         });
 
+        modelBuilder.Entity<PseudoToken>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__PseudoTo__3214EC0704ABB6F9");
+
+            entity.Property(e => e.Creacion).HasColumnType("datetime");
+            entity.Property(e => e.Guid)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Usuario)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Vigencia).HasColumnType("datetime");
+        });
+
         modelBuilder.Entity<Tipo>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Tipos__3214EC07E38AEB05");
@@ -137,6 +155,26 @@ public partial class ChaknuulDbContext : DbContext
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("Tipo");
+        });
+
+        modelBuilder.Entity<UsuariosAdmin>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Usuarios__3214EC07D8E1F7BF");
+
+            entity.ToTable("UsuariosAdmin");
+
+            entity.Property(e => e.GuidActivo)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Password)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Usuario)
+                .HasMaxLength(255)
+                .IsUnicode(false);
         });
 
         OnModelCreatingPartial(modelBuilder);

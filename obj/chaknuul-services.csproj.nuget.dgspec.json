@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Milox\\source\\repos\\chaknuul-services\\chaknuul-services.csproj": {}
+    "C:\\Repositorios\\serviciosv2\\chaknuul-services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Milox\\source\\repos\\chaknuul-services\\chaknuul-services.csproj": {
+    "C:\\Repositorios\\serviciosv2\\chaknuul-services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milox\\source\\repos\\chaknuul-services\\chaknuul-services.csproj",
+        "projectUniqueName": "C:\\Repositorios\\serviciosv2\\chaknuul-services.csproj",
         "projectName": "chaknuul-services",
-        "projectPath": "C:\\Users\\Milox\\source\\repos\\chaknuul-services\\chaknuul-services.csproj",
+        "projectPath": "C:\\Repositorios\\serviciosv2\\chaknuul-services.csproj",
         "packagesPath": "C:\\Users\\Milox\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milox\\source\\repos\\chaknuul-services\\obj\\",
+        "outputPath": "C:\\Repositorios\\serviciosv2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Milox\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [

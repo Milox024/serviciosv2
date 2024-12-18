@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repositorios\\serviciosv2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\controllers\\cmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:controllers\\cmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\controllers\\publiceventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:controllers\\publiceventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\data\\cmdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:data\\cmdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\business\\cmbs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:business\\cmbs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\data\\seguridaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:data\\seguridaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\business\\eventosbs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:business\\eventosbs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Repositorios\\serviciosv2\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:48:36.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SeguridadData.cs",
+              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Data\\SeguridadData.cs",
+              "RelativeDocumentMoniker": "Data\\SeguridadData.cs",
+              "ToolTip": "C:\\Repositorios\\serviciosv2\\Data\\SeguridadData.cs",
+              "RelativeToolTip": "Data\\SeguridadData.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAASwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:27:39.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PublicEventsController.cs",
+              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Controllers\\PublicEventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PublicEventsController.cs",
+              "ToolTip": "C:\\Repositorios\\serviciosv2\\Controllers\\PublicEventsController.cs",
+              "RelativeToolTip": "Controllers\\PublicEventsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:30:45.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CmBS.cs",
+              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Business\\CmBS.cs",
+              "RelativeDocumentMoniker": "Business\\CmBS.cs",
+              "ToolTip": "C:\\Repositorios\\serviciosv2\\Business\\CmBS.cs",
+              "RelativeToolTip": "Business\\CmBS.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAxwBcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:26:26.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CmData.cs",
+              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Data\\CmData.cs",
+              "RelativeDocumentMoniker": "Data\\CmData.cs",
+              "ToolTip": "C:\\Repositorios\\serviciosv2\\Data\\CmData.cs",
+              "RelativeToolTip": "Data\\CmData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAEwBcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:25:19.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventosBS.cs",
+              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Business\\EventosBS.cs",
+              "RelativeDocumentMoniker": "Business\\EventosBS.cs",
+              "ToolTip": "C:\\Repositorios\\serviciosv2\\Business\\EventosBS.cs",
+              "RelativeToolTip": "Business\\EventosBS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:24:51.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CmController.cs",
+              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Controllers\\CmController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CmController.cs",
+              "ToolTip": "C:\\Repositorios\\serviciosv2\\Controllers\\CmController.cs",
+              "RelativeToolTip": "Controllers\\CmController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA2wCoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:23:48.113Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

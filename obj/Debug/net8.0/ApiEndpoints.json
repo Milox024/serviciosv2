@@ -1,8 +1,66 @@
 [
   {
+    "ContainingType": "chaknuul_services.Controllers.CmController",
+    "Method": "AddOrUpdateEvent",
+    "RelativePath": "api/Cm/AddOrUpdateEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "chaknuul_services.InternalModels.GenericRequest\u00601[[chaknuul_services.Models.Evento, chaknuul-services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chaknuul_services.Controllers.CmController",
+    "Method": "GetEventsAdmin",
+    "RelativePath": "api/Cm/GetEventsAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "chaknuul_services.InternalModels.GenericRequest\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chaknuul_services.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usu",
+        "Type": "chaknuul_services.Models.UsuarioLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "chaknuul_services.Controllers.PublicEventsController",
     "Method": "Index",
     "RelativePath": "api/v1/public/PublicEvents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chaknuul_services.Controllers.PublicEventsController",
+    "Method": "Partners",
+    "RelativePath": "api/v1/public/PublicEvents/partners",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
