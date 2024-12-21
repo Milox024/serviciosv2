@@ -43,8 +43,8 @@ namespace chaknuul_services.Controllers
         {
             try
             {
-                Evento events = EventosBS.InstanceBS.GetProximo();
-                return Ok(new { ok = true, result = events, message = "" });
+                List<Partner> partners = EventosBS.InstanceBS.GetPartners();
+                return Ok(new { ok = true, result = partners, message = "" });
             }
             catch (Exception ex)
             {

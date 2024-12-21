@@ -40,8 +40,50 @@ namespace chaknuul_services.Controllers
                 bool validRequest = SeguridadBS.InstanceBS.ValidaReferencia(request.Referencia);
                 if (validRequest)
                 {
-                    var eventos = CmBS.InstanceBS.AddOrUpdateEvent(request.Data);
-                    return Ok(new { ok = true, result = eventos, message = "" });
+                    var evento = CmBS.InstanceBS.AddOrUpdateEvent(request.Data);
+                    return Ok(new { ok = true, result = evento, message = "" });
+                }
+                else
+                {
+                    return Ok(new { ok = false, message = "Solicitud Invalida (401)" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+        }
+        [HttpPost("AddOrUpdateEventV2")]
+        public IActionResult AddOrUpdateEvent([FromBody] GenericRequest<EventosV2> request)
+        {
+            try
+            {
+                bool validRequest = SeguridadBS.InstanceBS.ValidaReferencia(request.Referencia);
+                if (validRequest)
+                {
+                    var evento = CmBS.InstanceBS.AddOrUpdateEventV2(request.Data);
+                    return Ok(new { ok = true, result = evento, message = "" });
+                }
+                else
+                {
+                    return Ok(new { ok = false, message = "Solicitud Invalida (401)" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+        }
+        [HttpPost("GetTipos")]
+        public IActionResult GetTipos([FromBody] GenericRequest<int> request)
+        {
+            try
+            {
+                bool validRequest = SeguridadBS.InstanceBS.ValidaReferencia(request.Referencia);
+                if (validRequest)
+                {
+                    var tipos = CmBS.InstanceBS.GetTipos();
+                    return Ok(new { ok = true, result = tipos, message = "" });
                 }
                 else
                 {

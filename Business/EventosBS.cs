@@ -24,6 +24,16 @@ namespace chaknuul_services.Business
             return EventosData.InstanceDA.GetEventos();
         }
 
+        internal List<EventosV2> GetEventosV2()
+        {
+            return EventosData.InstanceDA.GetEventosV2();
+        }
+
+        internal List<Partner> GetPartners()
+        {
+            return EventosData.InstanceDA.GetPartners();
+        }
+
         internal Evento GetProximo()
         {
             return EventosData.InstanceDA.GetProximo();

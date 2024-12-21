@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "chaknuul_services.Controllers.CmController",
+    "Method": "AddOrUpdateEvent",
+    "RelativePath": "api/Cm/AddOrUpdateEventV2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "chaknuul_services.InternalModels.GenericRequest\u00601[[chaknuul_services.Models.EventosV2, chaknuul-services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chaknuul_services.Controllers.CmController",
     "Method": "GetEventsAdmin",
     "RelativePath": "api/Cm/GetEventsAdmin",
     "HttpMethod": "POST",
@@ -34,7 +50,7 @@
   {
     "ContainingType": "chaknuul_services.Controllers.LoginController",
     "Method": "Login",
-    "RelativePath": "api/Login",
+    "RelativePath": "api/Login/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -71,6 +87,16 @@
     "ContainingType": "chaknuul_services.Controllers.PublicEventsController",
     "Method": "Proximo",
     "RelativePath": "api/v1/public/PublicEvents/proximo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chaknuul_services.Controllers.PublicEventsV2Controller",
+    "Method": "Index",
+    "RelativePath": "api/v2/public/PublicEventsV2",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

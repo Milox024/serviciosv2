@@ -9,6 +9,8 @@ public partial class Partner
 
     public string Nombre { get; set; } = null!;
 
+    public string Imagen { get; set; } = null!;
+
     public string Descripcion { get; set; } = null!;
 
     public string? Whatsapp { get; set; }

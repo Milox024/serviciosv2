@@ -107,6 +107,9 @@ public partial class DbAae570Chaknuul2024Context : DbContext
             entity.Property(e => e.Facebook)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+            entity.Property(e => e.Imagen)
+                .HasMaxLength(500)
+                .IsUnicode(false);
             entity.Property(e => e.Instagram)
                 .HasMaxLength(100)
                 .IsUnicode(false);

@@ -24,9 +24,19 @@ namespace chaknuul_services.Business
             return CmData.InstanceDA.AddOrUpdateEvent(data);
         }
 
+        internal object AddOrUpdateEventV2(EventosV2 data)
+        {
+            return CmData.InstanceDA.AddOrUpdateEventV2(data);
+        }
+
         internal List<Evento> GetEventsAdmin()
         {
             return CmData.InstanceDA.GetEventsAdmin();
+        }
+
+        internal List<Tipo> GetTipos()
+        {
+            return CmData.InstanceDA.GetTipos();
         }
     }
 }
