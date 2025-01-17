@@ -1,6 +1,12 @@
 ﻿
 using chaknuul_services.Data;
 using chaknuul_services.Models;
+using static System.Net.Mime.MediaTypeNames;
+using Convert = System.Convert;
+using MemoryStream = System.IO.MemoryStream;
+using System.Buffers.Text;
+using Image = System.Drawing;
+using System.Drawing;
 
 namespace chaknuul_services.Business
 {
@@ -19,9 +25,9 @@ namespace chaknuul_services.Business
             }
         }
 
-        internal Evento AddOrUpdateEvent(Evento data)
+        internal Evento AddOrUpdateEvent(Evento evento)
         {
-            return CmData.InstanceDA.AddOrUpdateEvent(data);
+            return CmData.InstanceDA.AddOrUpdateEvent(evento);
         }
 
         internal object AddOrUpdateEventV2(EventosV2 data)
@@ -37,6 +43,11 @@ namespace chaknuul_services.Business
         internal List<Tipo> GetTipos()
         {
             return CmData.InstanceDA.GetTipos();
+        }
+
+        internal object UpdateEventStatus(int data)
+        {
+            return CmData.InstanceDA.UpdateEventStatus(data);
         }
     }
 }

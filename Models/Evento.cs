@@ -17,6 +17,8 @@ public partial class Evento
 
     public string Subtitulo { get; set; } = null!;
 
+    public bool Foco { get; set; }
+
     public string Informacion { get; set; } = null!;
 
     public string? Objetivo { get; set; }
@@ -37,5 +39,5 @@ public partial class Evento
 
     public DateTime? FechaEdicion { get; set; }
 
-    public bool? Foco { get; set; }
+    public bool? Activo { get; set; }
 }

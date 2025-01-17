@@ -46,9 +46,7 @@ public partial class DbAae570Chaknuul2024Context : DbContext
             entity.Property(e => e.Fecha).HasColumnType("datetime");
             entity.Property(e => e.FechaCreacion).HasColumnType("datetime");
             entity.Property(e => e.FechaEdicion).HasColumnType("datetime");
-            entity.Property(e => e.Imagen)
-                .HasMaxLength(255)
-                .IsUnicode(false);
+            entity.Property(e => e.Imagen).IsUnicode(false);
             entity.Property(e => e.Incluye)
                 .HasMaxLength(1000)
                 .IsUnicode(false);

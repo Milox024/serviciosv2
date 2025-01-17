@@ -66,5 +66,17 @@ namespace chaknuul_services.Data
                 return context.Tipos.ToList();
             }
         }
+
+        internal bool UpdateEventStatus(int eventId)
+        {
+            using (var context = new DbAae570Chaknuul2024Context())
+            {
+                Evento e = context.Eventos.Where(w => w.Id == eventId).FirstOrDefault();
+                e.Activo = !e.Activo;
+                context.Eventos.Update(e);
+                context.SaveChanges();
+            }
+            return true;
+        }
     }
 }

@@ -2,6 +2,7 @@
 using chaknuul_services.InternalModels;
 using chaknuul_services.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Drawing;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -40,7 +41,42 @@ namespace chaknuul_services.Controllers
                 bool validRequest = SeguridadBS.InstanceBS.ValidaReferencia(request.Referencia);
                 if (validRequest)
                 {
-                    var evento = CmBS.InstanceBS.AddOrUpdateEvent(request.Data);
+                    Evento evento = request.Data;
+                    if (!evento.Imagen.Equals("") && evento.Imagen.Length > 50)
+                    {
+                        using (MemoryStream ms = new MemoryStream(Convert.FromBase64String(evento.Imagen.Split(',')[1])))
+                        {
+                            using (Bitmap bm2 = new Bitmap(ms))
+                            {
+                                string imgUnico = "";
+                                imgUnico = Guid.NewGuid().ToString().Substring(0, 10);
+                                bm2.Save("../chaknuul/images/" + imgUnico + ".png");
+                                evento.Imagen = imgUnico + ".png";
+                            }
+                        }
+                    }
+                    var eventoOut = CmBS.InstanceBS.AddOrUpdateEvent(request.Data);
+                    return Ok(new { ok = true, result = eventoOut, message = "" });
+                }
+                else
+                {
+                    return Ok(new { ok = false, message = "Solicitud Invalida (401)" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+        }
+        [HttpPost("UpdateEventStatus")]
+        public IActionResult UpdateEventStatus([FromBody] GenericRequest<int> request)
+        {
+            try
+            {
+                bool validRequest = SeguridadBS.InstanceBS.ValidaReferencia(request.Referencia);
+                if (validRequest)
+                {
+                    var evento = CmBS.InstanceBS.UpdateEventStatus(request.Data);
                     return Ok(new { ok = true, result = evento, message = "" });
                 }
                 else

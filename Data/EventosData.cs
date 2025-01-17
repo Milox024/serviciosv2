@@ -45,7 +45,7 @@ namespace chaknuul_services.Data
         {
             using (var context = new DbAae570Chaknuul2024Context())
             {
-                Evento eve = context.Eventos.Where(w => w.Fecha >= DateTime.Now && w.Foco.Value == true).FirstOrDefault();
+                Evento eve = context.Eventos.Where(w => w.Fecha >= DateTime.Now && w.Foco == true).FirstOrDefault();
                 if (eve != null) {
                     return eve;
                 }

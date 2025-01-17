@@ -48,6 +48,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "chaknuul_services.Controllers.CmController",
+    "Method": "GetTipos",
+    "RelativePath": "api/Cm/GetTipos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "chaknuul_services.InternalModels.GenericRequest\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chaknuul_services.Controllers.CmController",
+    "Method": "UpdateEventStatus",
+    "RelativePath": "api/Cm/UpdateEventStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "chaknuul_services.InternalModels.GenericRequest\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "chaknuul_services.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login/login",
