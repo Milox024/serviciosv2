@@ -33,6 +33,48 @@
   },
   {
     "ContainingType": "chaknuul_services.Controllers.CmController",
+    "Method": "CloneEvent",
+    "RelativePath": "api/Cm/CloneEvent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "referencia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "eid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chaknuul_services.Controllers.CmController",
+    "Method": "DeleteEvent",
+    "RelativePath": "api/Cm/DeleteEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "chaknuul_services.InternalModels.GenericRequest\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chaknuul_services.Controllers.CmController",
     "Method": "GetEventsAdmin",
     "RelativePath": "api/Cm/GetEventsAdmin",
     "HttpMethod": "POST",
@@ -67,14 +109,19 @@
     "ContainingType": "chaknuul_services.Controllers.CmController",
     "Method": "UpdateEventStatus",
     "RelativePath": "api/Cm/UpdateEventStatus",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "chaknuul_services.InternalModels.GenericRequest\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": true
+        "Name": "referencia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

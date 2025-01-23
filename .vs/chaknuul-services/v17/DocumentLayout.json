@@ -11,16 +11,12 @@
       "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:data\\cmdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\data\\eventosdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:data\\eventosdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\models\\dbaae570chaknuul2024context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:models\\dbaae570chaknuul2024context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|c:\\repositorios\\serviciosv2\\business\\cmbs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7983F1C-4FCB-4F8E-84DD-FDA06B49AAA0}|chaknuul-services.csproj|solutionrelative:business\\cmbs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CmController.cs",
-              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Controllers\\CmController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CmController.cs",
-              "ToolTip": "C:\\Repositorios\\serviciosv2\\Controllers\\CmController.cs",
-              "RelativeToolTip": "Controllers\\CmController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAASwDQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T04:01:31.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Repositorios\\serviciosv2\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T04:29:32.671Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -66,33 +36,46 @@
               "RelativeDocumentMoniker": "Data\\CmData.cs",
               "ToolTip": "C:\\Repositorios\\serviciosv2\\Data\\CmData.cs",
               "RelativeToolTip": "Data\\CmData.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAEwBMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswFsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:29:46.538Z",
+              "WhenOpened": "2025-01-21T03:43:28.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CmBS.cs",
+              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Business\\CmBS.cs",
+              "RelativeDocumentMoniker": "Business\\CmBS.cs",
+              "ToolTip": "C:\\Repositorios\\serviciosv2\\Business\\CmBS.cs",
+              "RelativeToolTip": "Business\\CmBS.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T05:02:32.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CmController.cs",
+              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Controllers\\CmController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CmController.cs",
+              "ToolTip": "C:\\Repositorios\\serviciosv2\\Controllers\\CmController.cs",
+              "RelativeToolTip": "Controllers\\CmController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAmwEYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T04:01:31.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EventosData.cs",
-              "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Data\\EventosData.cs",
-              "RelativeDocumentMoniker": "Data\\EventosData.cs",
-              "ToolTip": "C:\\Repositorios\\serviciosv2\\Data\\EventosData.cs",
-              "RelativeToolTip": "Data\\EventosData.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAIA2wC8AAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T05:04:51.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "DbAae570Chaknuul2024Context.cs",
               "DocumentMoniker": "C:\\Repositorios\\serviciosv2\\Models\\DbAae570Chaknuul2024Context.cs",
               "RelativeDocumentMoniker": "Models\\DbAae570Chaknuul2024Context.cs",
               "ToolTip": "C:\\Repositorios\\serviciosv2\\Models\\DbAae570Chaknuul2024Context.cs",
               "RelativeToolTip": "Models\\DbAae570Chaknuul2024Context.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T03:57:44.989Z",
               "EditorCaption": ""

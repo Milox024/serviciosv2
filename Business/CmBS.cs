@@ -35,6 +35,16 @@ namespace chaknuul_services.Business
             return CmData.InstanceDA.AddOrUpdateEventV2(data);
         }
 
+        internal object CloneEvent(int eid, DateTime fecha)
+        {
+            return CmData.InstanceDA.CloneEvent(eid, fecha);
+        }
+
+        internal bool DeleteEvent(int idEvento)
+        {
+            return CmData.InstanceDA.DeleteEvent(idEvento);
+        }
+
         internal List<Evento> GetEventsAdmin()
         {
             return CmData.InstanceDA.GetEventsAdmin();

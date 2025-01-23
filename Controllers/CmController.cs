@@ -50,7 +50,7 @@ namespace chaknuul_services.Controllers
                             {
                                 string imgUnico = "";
                                 imgUnico = Guid.NewGuid().ToString().Substring(0, 10);
-                                bm2.Save("../chaknuul/images/" + imgUnico + ".png");
+                                bm2.Save("../chaknuul/eventimages/" + imgUnico + ".png");
                                 evento.Imagen = imgUnico + ".png";
                             }
                         }
@@ -68,15 +68,57 @@ namespace chaknuul_services.Controllers
                 return BadRequest(new { error = ex.Message });
             }
         }
-        [HttpPost("UpdateEventStatus")]
-        public IActionResult UpdateEventStatus([FromBody] GenericRequest<int> request)
+        [HttpGet("UpdateEventStatus")]
+        public IActionResult UpdateEventStatus(string referencia, int id)
+        {
+            try
+            {
+                bool validRequest = SeguridadBS.InstanceBS.ValidaReferencia(referencia);
+                if (validRequest)
+                {
+                    var evento = CmBS.InstanceBS.UpdateEventStatus(id);
+                    return Ok(new { ok = true, result = evento, message = "" });
+                }
+                else
+                {
+                    return Ok(new { ok = false, message = "Solicitud Invalida (401)" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+        }
+        [HttpPost("DeleteEvent")]
+        public IActionResult DeleteEvent([FromBody] GenericRequest<int> request)
         {
             try
             {
                 bool validRequest = SeguridadBS.InstanceBS.ValidaReferencia(request.Referencia);
                 if (validRequest)
                 {
-                    var evento = CmBS.InstanceBS.UpdateEventStatus(request.Data);
+                    var evento = CmBS.InstanceBS.DeleteEvent(request.Data);
+                    return Ok(new { ok = true, result = true, message = "" });
+                }
+                else
+                {
+                    return Ok(new { ok = false, message = "Solicitud Invalida (401)" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+        }
+        [HttpGet("CloneEvent")]
+        public IActionResult CloneEvent(string referencia, DateTime fecha, int eid) 
+        { 
+            try
+            {
+                bool validRequest = SeguridadBS.InstanceBS.ValidaReferencia(referencia);
+                if (validRequest)
+                {
+                    var evento = CmBS.InstanceBS.CloneEvent(eid, fecha);
                     return Ok(new { ok = true, result = evento, message = "" });
                 }
                 else

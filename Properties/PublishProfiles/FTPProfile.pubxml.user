@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAouCj77wGDUWYSWwU5MF41gAAAAACAAAAAAAQZgAAAAEAACAAAAAaHT76VVZSOBmExmWU9SASOVWEwLyOA9HPC7rgQ6lNNQAAAAAOgAAAAAIAACAAAABvc0iFBmAj6WOwE5CCaIp9AsWknK1RAP7pxXZudCcgKiAAAADZMbI+7TUT51tKMaZrXTQsAYQPj9MWzohUlL5mS/4oskAAAABQQ7HV32yxGtPBCy7CfkFDTwdreFIYgaPj7CT8GA853nBQgze4wDG/pVfBzfxCtHq+VDTiIm7Vm6+SErnNefUE</EncryptedPassword>
     <_PublishTargetUrl>ftp://win8100.site4now.net</_PublishTargetUrl>
-    <History>True|2025-01-17T04:58:13.4873574Z||;True|2025-01-16T22:53:37.2138823-06:00||;True|2025-01-16T22:32:39.2825349-06:00||;True|2025-01-15T23:41:51.2426014-06:00||;True|2025-01-15T23:15:02.9403350-06:00||;True|2024-12-20T22:06:22.2453301-06:00||;True|2024-12-20T22:00:28.0153453-06:00||;False|2024-12-20T21:48:13.4834792-06:00||;True|2024-12-17T23:51:55.7624214-06:00||;True|2024-12-17T23:44:23.7162142-06:00||;True|2024-12-14T21:02:24.9553796-06:00||;True|2024-12-14T20:54:33.5707047-06:00||;True|2024-12-12T11:33:33.8222922-06:00||;True|2024-12-10T23:20:46.2875648-06:00||;False|2024-12-10T23:18:24.0693961-06:00||;False|2024-12-10T23:16:31.2700422-06:00||;True|2024-12-10T22:54:01.2474963-06:00||;</History>
+    <History>True|2025-01-21T04:49:45.9783183Z||;True|2025-01-20T22:18:06.1450297-06:00||;True|2025-01-20T22:11:35.5380576-06:00||;True|2025-01-20T21:58:03.4285796-06:00||;True|2025-01-19T00:00:42.8037714-06:00||;True|2025-01-18T23:06:44.2676607-06:00||;True|2025-01-16T22:58:13.4873574-06:00||;True|2025-01-16T22:53:37.2138823-06:00||;True|2025-01-16T22:32:39.2825349-06:00||;True|2025-01-15T23:41:51.2426014-06:00||;True|2025-01-15T23:15:02.9403350-06:00||;True|2024-12-20T22:06:22.2453301-06:00||;True|2024-12-20T22:00:28.0153453-06:00||;False|2024-12-20T21:48:13.4834792-06:00||;True|2024-12-17T23:51:55.7624214-06:00||;True|2024-12-17T23:44:23.7162142-06:00||;True|2024-12-14T21:02:24.9553796-06:00||;True|2024-12-14T20:54:33.5707047-06:00||;True|2024-12-12T11:33:33.8222922-06:00||;True|2024-12-10T23:20:46.2875648-06:00||;False|2024-12-10T23:18:24.0693961-06:00||;False|2024-12-10T23:16:31.2700422-06:00||;True|2024-12-10T22:54:01.2474963-06:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -24,16 +24,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/10/2024 10:43:48</publishTime>
     </File>
     <File Include="chaknuul-services.deps.json">
-      <publishTime>01/16/2025 22:56:14</publishTime>
+      <publishTime>01/20/2025 22:47:42</publishTime>
     </File>
     <File Include="chaknuul-services.dll">
-      <publishTime>01/16/2025 22:56:13</publishTime>
+      <publishTime>01/20/2025 22:47:41</publishTime>
     </File>
     <File Include="chaknuul-services.exe">
-      <publishTime>01/16/2025 22:56:13</publishTime>
+      <publishTime>01/20/2025 22:47:41</publishTime>
     </File>
     <File Include="chaknuul-services.pdb">
-      <publishTime>01/16/2025 22:56:13</publishTime>
+      <publishTime>01/20/2025 22:47:41</publishTime>
     </File>
     <File Include="chaknuul-services.runtimeconfig.json">
       <publishTime>01/15/2025 23:09:50</publishTime>
@@ -213,7 +213,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/22/2021 18:49:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>01/16/2025 22:56:14</publishTime>
+      <publishTime>01/20/2025 22:47:42</publishTime>
     </File>
   </ItemGroup>
 </Project>
